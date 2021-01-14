@@ -4,9 +4,11 @@
 @import "variables.css";
 
 @import "components/status-bar.css";
-
+@import "components/nav-bar.css";
 /* components */
-@import "screens/login.css" /* screens */ body {
+@import "screens/login.css";
+/* screens */
+body {
   font-family: "Open Sans", sans-serif, -apple-system, "Segoe UI",
     "Helvetica Neue";
 }
