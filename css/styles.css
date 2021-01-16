@@ -2,13 +2,17 @@
 
 @import "reset.css";
 @import "variables.css";
-
+/* components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
-/* components */
-@import "screens/login.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 /* screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+
 body {
+  color: #2e363e;
   font-family: "Open Sans", sans-serif, -apple-system, "Segoe UI",
     "Helvetica Neue";
 }
